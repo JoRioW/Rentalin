@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:id="@+id/homeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/homeBtnIV"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:tint="#4A4949"
+                app:srcCompat="@drawable/baseline_home_24" />
+
+            <TextView
+                android:id="@+id/homeBtnTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:textColor="#6E6C6C" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/historyBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/historyBtnIV"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:tint="#4A4949"
+                app:srcCompat="@drawable/baseline_history_24" />
+
+            <TextView
+                android:id="@+id/historyBtnTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="History"
+                android:textColor="#6E6C6C" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/profileBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/profileBtnIV"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:tint="#4A4949"
+                app:srcCompat="@drawable/baseline_account_circle_24" />
+
+            <TextView
+                android:id="@+id/profileBtnTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textColor="#6E6C6C" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameContainer"
+        android:layout_width="410dp"
+        android:layout_height="661dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Rentalin</string>
+    <string name="default_web_id">1068847690363-cbi3i0n7pde0bk8rr08hhqppa8olr0ut.apps.googleusercontent.com</string>
+    <string-array name="ddl_item">
+        <item>Choose payment method</item>
+        <item>QRIS</item>
+        <item>Gopay</item>
+        <item>Transfer Bank</item>
+    </string-array>
+    <string-array name="cities">
+        <item>All Cities</item>
+        <item>Jakarta</item>
+        <item>Bandung</item>
+        <item>Yogyakarta</item>
+        <item>Semarang</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

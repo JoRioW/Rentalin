@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PrimaryButton">
+        <item name="android:background">@drawable/background_primary_button</item>
+        <!-- Set text color -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Warna teks putih -->
+        <!-- Set padding tombol -->
+        <item name="android:padding">10dp</item>
+        <!-- Set ukuran teks -->
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="HeaderText">
+        <item name="android:textColor">@color/cyan</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RegularText">
+        <item name="android:textColor">@color/cyan</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="editTextBox">
+        <item name="android:radius">10dp</item>
+    </style>
+
+</resources>
